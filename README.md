@@ -18,20 +18,7 @@ A React-based web application that allows users to share their screen and audio 
 
 ## Getting Started
 
-1. Clone the repository
-```bash
-git clone https://github.com/yeyu2/multimodal-client-vite.git
-cd multimodal-client-vite
-```
-
-2. Install dependencies
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Set up the websocket server url
+1. Set up the websocket server url
 Open the App.tsx
 find the line:
 ```
@@ -39,7 +26,7 @@ find the line:
 ```
 Replace the websocket server url of your own.
 
-4. Run the development server
+2. Run the development server
 ```bash
 npm run dev
 # or
