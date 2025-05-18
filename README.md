@@ -3,6 +3,8 @@
 
 This frontend application provides the user interface for interacting with the AI-Powered Plant Health Assistant backend. It's built using React, Vite, and TypeScript, offering a modern, responsive chat experience with support for text, image, and voice inputs.
 
+Link to the backend WebSocket server: https://github.com/alberttrann/plantdiseaseserver
+
 ## Table of Contents
 
 1.  [Overview](#overview)
