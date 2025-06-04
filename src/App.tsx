@@ -1,12 +1,13 @@
 // src/App.tsx
 import React from "react";
 import Sidebar from "./components/Sidebar";
-import MainChatView from "./components/MainChatView"; // Using MainChatView
+import MainChatView from "./components/MainChatView"; 
 import { WebSocketProvider } from "./components/WebSocketProvider";
-import "./App.css"; // Your main CSS file (ensure this exists or remove if not used)
+import "./App.css"; 
 
-const WEBSOCKET_URL = "ws://127.0.0.1:9073";
-
+const WEBSOCKET_URL = window.location.protocol === 'https:' 
+  ? 'wss://zw70f854-9073.asse.devtunnels.ms'
+  : 'ws://localhost:9073';
 const App: React.FC = () => {
   return (
     <WebSocketProvider url={WEBSOCKET_URL}>
